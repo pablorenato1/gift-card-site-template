@@ -17,6 +17,7 @@ h1, h2, h3, h4, p {
 
 #bff-img {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
@@ -54,10 +55,6 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
-}
-
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
@@ -68,6 +65,10 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
+#gift-img-cheers {
+    height: 200px;
+}
+
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
 }
@@ -76,12 +77,13 @@ h1, h2, h3, h4, p {
     background-image: url("images/hot.gif");
 }
 
-#gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+#gift-img-brilliant:hover {
+    background-image: url("images/brilliant.gif");
 }
 
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
+    background-size: cover;
 }
 
 #gift-img-cheers:hover {
